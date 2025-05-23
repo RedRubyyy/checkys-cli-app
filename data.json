@@ -1,0 +1,114 @@
+{
+    "data creation date" :[],
+    "author" : {
+        "author" : "Ahmad Kagendra",
+        "github" : "https://github.com/RedRubyyy"
+    },
+    "data collection" : {
+        "method" : "GPT-4 AI chat box",
+        "link" : "https://chatgpt.com/share/6830a0a3-ce94-8011-b6f7-e6bda64b8cf2n"
+    },
+    "contain" : {
+        "data-length" : 2,
+        "data-specifications" : {
+            "zelio-sr" : {
+                "type" : {
+                    "2" : "Compact type Smart Relay. ",
+                    "3" : "Modular type Smart Relay. "
+                },
+                "feature" : {
+                    "A" : "Unit with a Display and without Clock, ",
+                    "B" : "Unit with a Display and Clock, ",
+                    "D" : "Unit without Display or without Clock, ",
+                    "E" : "Unit without Display but with a Clock, ",
+                    "XT": "Modul ekstensi"
+                },
+                "total-i/o" : {
+                    "10" : "Total Input and Output is 10",
+                    "12" : "Total Input and Output is 12",
+                    "20" : "Total Input and Output is 20",
+                    "26" : "Total Input and Output is 26"
+                },
+                "output-type" : {
+                    "1" : "Output Relay, ",
+                    "2" : "Output Transmitor, "
+                },
+                "input-power" : {
+                    "BD" : "Input power 24 VDC",
+                    "JD" : "Input power 12 VDC",
+                    "FU" : "Input power 100-240 VAC",
+                    "B" : "Input power 24 VAC"            
+                }
+            },
+            "omron-plc": {
+                "series": {
+                  "CP1E": "Entry-level PLC, compact type",
+                  "CP1L": "Mid-range PLC, modular expansion",
+                  "CP1H": "High-performance compact PLC",
+                  "CJ2M": "Modular PLC for advanced applications",
+                  "CJ1M": "Compact modular PLC",
+                  "CS1D": "Redundant CPU system, high reliability",
+                  "CS1G": "Modular PLC for large-scale control",
+                  "NJ1": "Sysmac NJ-series for motion and logic control",
+                  "NX1P2": "Machine automation controller with EtherCAT",
+                  "NX102": "Sysmac NX-series controller with I/O & safety integration"
+                },
+                "model_type": {
+                  "E": "Economy model",
+                  "N": "Standard model",
+                  "NA": "Standard model with analog input built-in",
+                  "Z": "High-speed/high-function model",
+                  "H": "Model with pulse output (for positioning)",
+                  "DR": "Relay output variant",
+                  "DT": "Transistor output variant",
+                  "DU": "Transistor (sourcing) output variant"
+                },
+                "io_config": {
+                  "10": "6 inputs / 4 outputs",
+                  "14": "8 inputs / 6 outputs",
+                  "20": "12 inputs / 8 outputs",
+                  "30": "18 inputs / 12 outputs",
+                  "40": "24 inputs / 16 outputs",
+                  "60": "36 inputs / 24 outputs"
+                },
+                "input_type": {
+                  "DC": "DC input (typically 24 VDC)",
+                  "AC": "AC input (typically 100–240 VAC)",
+                  "UC": "Universal input (selectable AC/DC)"
+                },
+                "output_type": {
+                  "R": "Relay output",
+                  "T": "Transistor output (sinking)",
+                  "T1": "Transistor output (sourcing)",
+                  "TR": "Transistor output (reversible)"
+                },
+                "power_type": {
+                  "A": "AC power supply (typically 100–240 VAC)",
+                  "D": "DC power supply (typically 24 VDC)",
+                  "B": "Battery-backed or uninterruptible supply"
+                }
+            },
+            "omron-additional data" : {
+                "communication": {
+                  "RS": "RS-232/RS-485 communication port",
+                  "ETH": "Ethernet port built-in",
+                  "USB": "USB programming port",
+                  "CIF": "Peripheral port (for programming/expansion)",
+                  "SC": "Serial Communication module",
+                  "ENET": "Optional Ethernet communication module"
+                },
+                "expansion": {
+                  "EX": "Expansion I/O module supported",
+                  "AD": "Analog Input Module (e.g., CP1W-AD)",
+                  "DA": "Analog Output Module (e.g., CP1W-DA)",
+                  "TS": "Temperature Sensor Module (e.g., CP1W-TS)",
+                  "RTD": "RTD Module",
+                  "CNT": "High-speed Counter Module",
+                  "PULS": "Pulse Output Module for positioning"
+                }
+            }
+        }
+    }
+}
+
+
