@@ -1,7 +1,7 @@
 export default async function (print , delay) {
     print.info("\nWellcome to Checking Command Line Interface.");
     print.text("Created By : Ahmad Kagendra ©2025");
-    print.text("Github : https://github.com/ahmadkagendra");
+    print.text("Github : https://github.com/RedRubyyy");
 
     await delay(500)
     print.info("\nHow to use this CLI :");
